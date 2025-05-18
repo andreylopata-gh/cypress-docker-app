@@ -9,9 +9,7 @@ export default defineConfig({
   },
 
   e2e: {
-    // baseUrl: 'http://test.triapp.swiss/',
-    //baseUrl: 'http://localhost:3000/',
-    baseUrl: 'https://triapp-dev.vercel.app',
+    baseUrl: '', // put the url
     video: false,
     viewportWidth: 1280,
     viewportHeight: 800,

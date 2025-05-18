@@ -9,7 +9,7 @@ export default defineConfig({
   },
 
   e2e: {
-    baseUrl: '', // put the url
+    baseUrl: 'https://triapp-dev.vercel.app',
     video: false,
     viewportWidth: 1280,
     viewportHeight: 800,

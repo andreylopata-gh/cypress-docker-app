@@ -4,7 +4,7 @@ describe('home testings', () => {
   const boxPath = '.boxs-container div[role="button"]';
 
   it('home page loading', () => {
-    cy.visit(targetUrl);
+    cy.visit(targetUrl); // test text
     cy.url().should('include', targetUrl);
 
     cy.get(wrongBoxesPath).should('be.visible');

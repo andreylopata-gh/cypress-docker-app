@@ -25,7 +25,7 @@ jobs:
         run: docker-compose logs -f
 
       - name: Upload Chrome artifacts 📸
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: chrome-artifacts
           path: |
@@ -35,7 +35,7 @@ jobs:
           retention-days: 5
 
       - name: Upload Firefox artifacts 📸
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: firefox-artifacts
           path:

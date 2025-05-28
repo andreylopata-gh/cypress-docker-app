@@ -1,6 +1,6 @@
 describe('home testings', () => {
   const targetUrl = '/';
-  const wrongBoxesPath = '.boxs-container';
+  const wrongBoxesPath = '.boxs-container22222';
   const boxPath = '.boxs-container div[role="button"]';
 
   it('home page loading', () => {

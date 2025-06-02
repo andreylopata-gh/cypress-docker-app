@@ -2,7 +2,7 @@ describe('home testings', () => {
   const targetUrl = '/';
   const wrongBoxesPath = '.boxs-container22222';
   const boxPath = '.boxs-container div[role="button"]';
-
+// add some comment
   it('home page loading', () => {
     cy.visit(targetUrl); // test text
     cy.url().should('include', targetUrl);

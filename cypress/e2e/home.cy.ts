@@ -6,7 +6,7 @@ describe('home testings', () => {
   it('home page loading', () => {
     cy.visit(targetUrl); // test text
     cy.url().should('include', targetUrl);
-
+    console.log("Test text");
     cy.get(wrongBoxesPath).should('be.visible');
   });
 

@@ -27,10 +27,7 @@ describe('home testings', () => {
     cy.visit(targetUrl);
     cy.get('.header-tab-wrapper .header-marker').should('be.visible');
   });
-//
-//   it('checking logo', () => {
-//     cy.get('.header-tab-wrapper .header-logo .logo').should('be.visible');
-//   });
+
 });
 
 export {};
